@@ -1,9 +1,9 @@
-# QUICK-DIl_TEST
+# QUICK-DIL_TEST
 
 ## Technologies used
 
 Vue 3 - https://vuejs.org/  
-Sass/Scss - https://sass-lang.com/ 
+Sass/Scss - https://sass-lang.com/
 ESLint - https://eslint.org/  
 Prettier - https://prettier.io/  
 

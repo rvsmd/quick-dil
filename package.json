@@ -12,7 +12,6 @@
     "sass": "^1.66.1",
     "vue": "^3.4.21",
     "vue-router": "^4.2.5",
-    "vue-select": "^3.1.0",
     "vuex": "^4.0.2"
   },
   "devDependencies": {

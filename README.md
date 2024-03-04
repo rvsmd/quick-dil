@@ -2,7 +2,8 @@
 
 ## Technologies used
 
-Vue 3 - https://vuejs.org/  
+Vue 3 - https://vuejs.org/ 
+Vuex - https://vuex.vuejs.org/
 Sass/Scss - https://sass-lang.com/
 ESLint - https://eslint.org/  
 Prettier - https://prettier.io/  

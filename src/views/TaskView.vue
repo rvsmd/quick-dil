@@ -12,7 +12,7 @@
 </template>
 
 <script setup>
-import { ref, computed, watch } from "vue";
+import { computed, watch } from "vue";
 import { useStore } from "vuex";
 import Task from "@/components/ui/Task.vue";
 import TaskForm from "@/components/ui/TaskForm.vue";

@@ -36,7 +36,7 @@ export default {
 };
 </script>
 
-<style scoped lang="scss">
+<style lang="scss" scoped>
 .create-task-field {
 	margin-top: 15px;
 	width: 100%;
@@ -55,5 +55,6 @@ export default {
 	background-color: green;
 	color: #fff;
 	border-radius: 5px;
+	cursor: pointer;
 }
 </style>

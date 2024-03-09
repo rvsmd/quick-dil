@@ -35,7 +35,7 @@ export default {
 };
 </script>
 
-<style scoped lang="scss">
+<style lang="scss" scoped>
 .done {
 	text-decoration: line-through;
 }
@@ -80,5 +80,6 @@ export default {
 	background-color: red;
 	color: #fff;
 	border-radius: 5px;
+	cursor: pointer;
 }
 </style>

@@ -4,7 +4,7 @@
 		<form id="new-task-form">
 			<input
 				id="task-title"
-				v-model="taskTitle"
+				v-model="newTask.taskTitle"
 				class="create-task-field"
 				type="text"
 				name="task-title"
@@ -12,13 +12,13 @@
 			/>
 			<input
 				id="task-content"
-				v-model="taskContent"
+				v-model="newTask.taskContent"
 				class="create-task-field"
 				type="text"
 				name="task-content"
 				placeholder="Task content"
 			/>
-			<button class="create-task-btn" @click.prevent="$emit('addTask', { taskTitle, taskContent })">Add task</button>
+			<button class="create-task-btn" @click.prevent="addTask">Add task</button>
 		</form>
 	</section>
 </template>
@@ -29,9 +29,23 @@ export default {
 	emits: ["addTask"],
 	data() {
 		return {
-			taskTitle: "",
-			taskContent: "",
+			newTask: {
+				taskTitle: "",
+				taskContent: "",
+			},
 		};
+	},
+	methods: {
+		addTask() {
+			this.$emit("addTask", this.newTask);
+			this.clearForm();
+		},
+		clearForm() {
+			this.newTask = {
+				taskTitle: "",
+				taskContent: "",
+			};
+		},
 	},
 };
 </script>

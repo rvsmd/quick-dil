@@ -5,7 +5,7 @@
   "scripts": {
     "setup": "npm install --legacy-peer-deps",
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --dest /var/www/vinsit-deploy",
+    "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
